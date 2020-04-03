@@ -1,4 +1,4 @@
-exports.themeLocation = './app/wp-content/themes/dewpa-theme/';
+exports.themeLocation = './wordpress/wp-content/themes/dewpa-theme/';
 exports.urlToPreview = 'http://vccw.test';
 
 // Be SURE to update urlToPreview to YOUR domain and not mine.

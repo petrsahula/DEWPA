@@ -43,6 +43,31 @@ $ vagrant up
 
 <http://vccw.test/> or <http://192.168.33.10/>
 
+Environments
+WordPress
+
+This tool installs a WordPress environment with these settings by default.
+
+    Default user
+        Username: admin
+        Password: admin
+
+MySQL
+
+    MySQL Host: 127.0.0.1
+    Username: wordpress or root
+    Password: wordpress
+    Port: 3306
+
+SSH
+
+    Host: vccw.test or 192.168.33.10
+    Username: vagrant
+    Password: vagrant
+    Port: 22
+
+You can login virtual machine with vagrant ssh.
+
 By this step you have finished the installation of the wordpress running in the virtual environment on your computer. If you want to install the full automation for your development environment, continue with the following steps.
 
 9. Check that the node and npm are working.

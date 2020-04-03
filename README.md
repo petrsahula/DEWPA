@@ -95,6 +95,15 @@ By this step you have finished the installation of the wordpress running in the 
 
     $ gulp watch
 
+Automatization works on gulp links only:
+
+    Local: http://localhost:3000
+    External: http://your_network_IP:3000
+    (Your external IP is generated and shown on the screen after you run gulp watch.)
+
+    and 
+
+    UI: ...:3001
 
 
 AND enjoy, you are done.

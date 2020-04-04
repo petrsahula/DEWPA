@@ -15,7 +15,7 @@ cpus: 1
 #
 # Network Settings
 #
-hostname: vccw.test
+hostname: dewpa.test
 ip: 192.168.33.10
 
 #
@@ -23,7 +23,7 @@ ip: 192.168.33.10
 # Manage additional entries in the /etc/hosts file using vagrant-hostsupdater
 #
 hostname_aliases:
-  - www.vccw.test
+  - www.dewpa.test
 #  - some.subdomain.vccw.test
 
 #
@@ -31,7 +31,7 @@ hostname_aliases:
 #
 version: latest
 lang: en_US
-title: Welcome to the VCCW
+title: Welcome to the DEWPA
 multisite: false
 rewrite_structure: /archives/%post_id%
 
@@ -46,7 +46,7 @@ wp_home: ''     # Path to the WP_HOME like "wp"
 #
 admin_user: admin
 admin_pass: admin
-admin_email: vccw@example.com
+admin_email: dewpa@example.com
 
 #
 # WordPress Database
@@ -63,6 +63,7 @@ db_pass: wordpress
 #
 plugins:
 - logbook
+- classic-editor
 
 #
 # WordPress Default Theme
@@ -74,7 +75,7 @@ theme: ''
 # WordPress Options
 #
 options:
-  blogdescription: Hello VCCW.
+  blogdescription: Hello DEWPA.
 
 #
 # WordPress Multisite Options
